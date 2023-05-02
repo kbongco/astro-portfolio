@@ -1,0 +1,14 @@
+.chbi-button {
+  height: 50px;
+  background-color: black;
+  width: 100px;
+  border-radius: 15%;
+  color: white;
+}
+
+.chbi-button-parent {
+  display: flex;
+  justify-content: end;
+  padding-right: 16px;
+  margin-top: 16px;
+}

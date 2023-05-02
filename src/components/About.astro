@@ -1,4 +1,8 @@
 ---
+import Counter from './button';
+const viewProjectText ='View Projects';
+const resumeText = 'resumeText';
+
 ---
 
 <section class='chbi-about-section'>
@@ -11,15 +15,30 @@
       <p class='chbi-about-info'>
         I am a former food scientist turned front end web developer, passionate about solving problems and creating user friendly experiences with code.
       </p>
+      <Counter />
+    </div>
+    <div class='chbi-about-current-projects'>
+      <h2 class='chbi-about-featured-projects-header'>Featured Projects</h2>
     </div>
   </div>
 </section>
 
 <style>
   .chbi-about-section {
-    min-height: 50vh;
+    min-height: 30vh;
     padding-top: 16px;
     color:#130067;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .chbi-about-current-projects {
+    margin-top: 24px;
+  }
+
+  .chbi-about-featured-projects-header {
+    text-align: center;
+    font-size: 2rem;
   }
 
   .chbi-name {
